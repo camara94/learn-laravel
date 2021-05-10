@@ -10,7 +10,6 @@
 <body>
 
     @yield( 'content' )
-
     <footer>
         &copy; copright &middot; {{ date('Y') }}
         @yield( 'link' )

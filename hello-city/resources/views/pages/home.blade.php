@@ -1,6 +1,6 @@
 @extends( 'app' )
 
-@section( 'title', 'hello city')
+@section( 'title', env( 'APP_NAME' ) )
 
 
 @section( 'content' )
