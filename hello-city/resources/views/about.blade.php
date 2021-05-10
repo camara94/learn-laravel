@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello city</title>
+    <title>Apropos</title>
 </head>
 
 <body>
@@ -12,7 +12,7 @@
     <p> Construit par &hearts; Stardev Cloud Group </p>
     <p>Il est actuellement {{ date('h:i:s') }} </p>
     <footer>
-        &copy; copright &middot; {{ date('Y') }} <a href="/apropos-moi">Apropos de moi</a>
+        &copy; copright &middot; {{ date('Y') }} <a href="/">Accueil</a>
     </footer>
 </body>
 
