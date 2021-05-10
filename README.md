@@ -13,3 +13,6 @@ Il y a plusieurs manière d'installer **laravel**, mais nous allons proceder de 
     php artisan serve
     </pre>
 </code>
+
+## Résumé
+Dans cette formation, j'ai pu rafraichir la mémoire dans laravel en revoyant les le routage, les layouts blades, les helpers, les variables de configurations, les variables d'environnements....
