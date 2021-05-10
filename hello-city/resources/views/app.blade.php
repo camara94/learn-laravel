@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello city</title>
+    <title> @yield( 'title', 'Contenu par defaut' ) </title>
 </head>
 
 <body>
@@ -12,7 +12,8 @@
     @yield( 'content' )
 
     <footer>
-        &copy; copright &middot; {{ date('Y') }} <a href="/apropos-moi">Apropos de moi</a>
+        &copy; copright &middot; {{ date('Y') }}
+        @yield( 'link' )
     </footer>
 </body>
 
