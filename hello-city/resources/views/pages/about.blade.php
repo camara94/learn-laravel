@@ -2,9 +2,9 @@
 @section( 'title', 'Apropos | ' . config( 'app.name' ) )
 
 @section( 'content' )
-<img src="asset('/images/flagtn.jpg')}}" alt="flag guinea">
+<img src="{{asset('/images/flagtn.jpg')}}" alt="flag guinea">
 <h1>Hello from Tunis</h1>
-<p> Construit par &hearts; Stardev Cloud Group </p>
+<p> Construit par <span class="text-pink-500">&hearts;</span> Stardev Cloud Group </p>
 <p>Il est actuellement {{ date('h:i:s') }} </p>
 @endsection( 'content' )
 

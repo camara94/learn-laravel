@@ -6,7 +6,7 @@
 @section( 'content' )
 <img src="{{asset('/images/flaggn.jpg')}}" alt="flag guinea" width="600">
 <h1>Hello from Conakry</h1>
-<p> Construit par &hearts; Stardev Cloud Group </p>
+<p> Construit par <span class="text-pink-400">&hearts;</span> Stardev Cloud Group </p>
 <p>Il est actuellement {{ date('h:i:s') }} </p>
 @endsection( 'content' )
 
