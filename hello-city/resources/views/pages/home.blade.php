@@ -10,5 +10,5 @@
 @endsection( 'content' )
 
 @section( 'link' )
-<a href="/apropos-moi">Apropos de moi</a>
+<a href="{{route('app_about')}}">Apropos de moi</a>
 @endsection( 'link' )

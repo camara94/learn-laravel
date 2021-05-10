@@ -8,5 +8,5 @@
 @endsection( 'content' )
 
 @section( 'link' )
-<a href="/">Retour en arrière</a>
+<a href="{{route('app_home')}}">Retour en arrière</a>
 @endsection

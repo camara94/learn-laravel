@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::name('app_home')->get('/', function () {
     return view('pages.home');
 });
 
 Route::get('/apropos-moi', function () {
     return View('pages.about');
-});
+})->name('app_about');
