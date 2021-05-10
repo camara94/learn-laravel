@@ -13,11 +13,7 @@
     <main role="main">
         @yield( 'content' )
     </main>
-
-    <footer>
-        &copy; copright &middot; {{ date('Y') }}
-        <span class="text-indigo-500 hover:text-indigo-600 underline">@yield( 'link' )</span>
-    </footer>
+    @include('layouts.partials._footer')
 </body>
 
 </html>
