@@ -1,6 +1,6 @@
-@extends( 'layouts.app' )
+@extends( 'layouts.app', ['title' => config('app.name')] )
 
-@section( 'title', config( 'app.name' ) )
+@section( 'title' )
 
 
 @section( 'content' )

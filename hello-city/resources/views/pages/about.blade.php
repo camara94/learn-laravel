@@ -1,5 +1,5 @@
-@extends( 'layouts.app' )
-@section( 'title', 'Apropos | ' . config( 'app.name' ) )
+@extends( 'layouts.app', ['title' => 'Apropos | ' . config( 'app.name' )] )
+@section( 'title')
 
 @section( 'content' )
 <img src="{{asset('/images/flagtn.jpg')}}" alt="flag guinea">
