@@ -4,12 +4,12 @@
 
 
 @section( 'content' )
-<img src="/images/flaggn.jpg" alt="flag guinea" width="600">
+<img src="{{asset('/images/flaggn.jpg')}}" alt="flag guinea" width="600">
 <h1>Hello from Conakry</h1>
 <p> Construit par &hearts; Stardev Cloud Group </p>
 <p>Il est actuellement {{ date('h:i:s') }} </p>
 @endsection( 'content' )
 
 @section( 'link' )
-<a href="{{route('app_about')}}">Apropos de moi</a>
+<a href=" {{route('app_about')}}">Apropos de moi</a>
 @endsection( 'link' )
